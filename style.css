@@ -97,17 +97,29 @@ button {
     width: 547px;
     line-height: 19.12px;
 }
+.get {
+    position: relative;
+}
 .hero-top input {
     border-radius: 40px;
     padding: 10px 10px 10px 30px;
     border: none;
     position: relative;
+    width: 447px;
+    background-color: #363535;
+    height: 55px;
 }
 .hero-top button {
     background-color: #5025FA;
     position: absolute;
-    top: 0;
-    bottom: 0;   
+    top: 8px;
+    bottom: 0;
+    right: 7px;   
+    padding: 0 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
 }
 
 .hero-bottom {
@@ -136,6 +148,21 @@ button {
 }
 
 .video-sec {
-    width: 70%;
-    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+    padding: 20px;
+}
+.video {
+    width: 60%;
+    width: 1040px;
+    height: 598.81px;
+    border-radius: 32px;
+    border: 0.5px;
+}
+.video img {
+    width: 100%;
+    height: 100%;
 }
