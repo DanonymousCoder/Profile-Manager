@@ -166,3 +166,61 @@ button {
     width: 100%;
     height: 100%;
 }
+
+.testimonial {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+.test-cont {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.row {
+    display: flex;
+    gap: 40px;
+}
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.test p {
+    width: 305px;
+    height: 100px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.award {
+    width: 100%;
+    margin: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.award-cont {
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.award .body {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
