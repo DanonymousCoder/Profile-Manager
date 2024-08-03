@@ -208,11 +208,10 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
+    color: #FFFFFF;
 }
 .award-cont {
-    padding: 10px;
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,5 +221,50 @@ button {
 .award .body {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 100px;
+    width: 100%;
+}
+.award .title {
+    margin-bottom: 40px;
+}
+.award .title h2 {
+    line-height: 57.37px;
+    font-size: 42px;
+    font-weight: 500;
+}
+.award .txt h3 {
+    line-height: 32.78px;
+    font-weight: 500;
+    font-size: 24px;
+}
+.award .txt p {
+    line-height: 19.12px;
+    font-weight: 400;
+    font-size: 12px;
+    width: 495px;
+    height: 57px;
+}
+.award .info .btn {
+    background: #FFFFFF1A;
+    border-radius: 50px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.txt {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.award2 .award-cont {
+    border-radius: 32px;
+    border: 1px solid #FFFFFF1A;
+}
+.award.award2 .body {
+    flex-direction: row-reverse; 
+    padding: 0 20px;
 }
