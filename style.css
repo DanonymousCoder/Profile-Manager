@@ -465,3 +465,57 @@ footer {
 .footer-cont li {
     list-style: none;
 }
+
+
+
+/* Testimonial page */
+.box-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.carrd {
+    background: #FFFFFF0D;
+    color: #FFFFFF;
+    width: 294.81px;
+    top: 580px;
+    left: 100.38px;
+    padding: 22.33px 30px;
+    gap: 14.29px;
+    border-radius: 14.29px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.carrd .name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+}
+.carrd p {
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+.carrd .source {
+    font-family: Manrope;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #AEAEAE;
+}
