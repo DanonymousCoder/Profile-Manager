@@ -25,6 +25,8 @@
             justify-content: center;
             align-items: center;
         }
+
+        /* hero */
         .hero-cont {
             width: 100%;
             display: flex;
@@ -44,6 +46,8 @@
             font-size: 14px;
             font-weight: 400;
         }
+
+        /* story */
         .story {
             width: 100%;
             display: flex;
@@ -62,14 +66,69 @@
         h5 {
             color: #FFFFFF;
         }
+
+        /* about-info */
         .about-info {
             margin: 100px 0;
+        }
+
+        /* advert */
+        .advert {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .advert-cont {
+            width: 80%;
+            color: #FFFFFF;
+            text-align: center;
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+        }
+        .ad {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: left;
+        }
+        .txt {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: left;
+            gap: 5px;
+        }
+        .txt h3 {
+            font-family: Manrope;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32.78px;
+            text-align: left;
+        }
+        .txt p {
+            width: 520px;
         }
     </style>
 </head>
 <body>
 
     <header>
+
+
         <!-- 
         Navbar
     -->
@@ -88,9 +147,9 @@
         <div class="link-list">
 
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#testimonial">Testimonials</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="testimonial.html">Testimonials</a></li>
             </ul>
 
         </div>
@@ -98,9 +157,15 @@
         <button>Login</button>
 
     </nav>
+
+
     </header>
 
     <main style="margin-top: 70px;">
+
+        <!-- 
+            HERO CONT
+        -->
        <div class="hero-cont">
         <div class="hero">
             <h1>About</h1>
@@ -108,6 +173,9 @@
         </div>
        </div>
 
+       <!-- 
+            STORY
+       -->
         <div class="story">
 
             <div class="slid half">
@@ -132,6 +200,9 @@
 
         </div>
 
+        <!-- 
+            ABOUT INFO
+        -->
         <div class="about-info">
             <div class="row">
 
@@ -152,11 +223,80 @@
             </div>
         </div>
 
+        <!-- 
+            ADVERT
+        -->
+        <div class="advert">
+
+            <div class="advert-cont">
+
+                <div class="ad">
+                    
+                    <div class="img">
+                        <img src="./images/ad1.png" alt="">
+                    </div>
+
+                    <div class="info">
+                        
+                        <div class="txt">
+
+                            <h3>For Small Business Owners</h3>
+
+                            <p>
+                                User-friendly software application that empowers individuals to efficiently create, customise, and manage their personal profiles, with a strong emphasis on data privacy and accessibility,
+                            </p>
+                            <p>
+                                User-friendly software application that empowers individuals to efficiently create, customise, and manage their personal profiles, with a strong emphasis on data privacy and accessibility,
+                            </p>
+
+                        </div>
+
+                        <div class="btn-2">
+                            <button>Learn More</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="ad">
+                    
+                    <div class="img">
+                        <img src="./images/ad2.png" alt="">
+                    </div>
+
+                    <div class="info">
+                        
+                        <div class="txt">
+
+                            <h3>For Business Professionals</h3>
+
+                            <p>
+                                User-friendly software application that empowers individuals to efficiently create, customise, and manage their personal profiles, with a strong emphasis on data privacy and accessibility,
+                            </p>
+                            <p>
+                                User-friendly software application that empowers individuals to efficiently create, customise, and manage their personal profiles, with a strong emphasis on data privacy and accessibility,
+                            </p>
+
+                        </div>
+
+                        <div class="btn-2">
+                            <button>Learn More</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </main>
 
      <!-- 
             Subscribe section
-        -->
+    -->
 
         <section class="subscribe">
 
