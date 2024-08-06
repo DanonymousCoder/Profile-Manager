@@ -33,6 +33,10 @@ nav {
     position: fixed;
     top: 0;
 }
+nav a {
+    display: flex;
+    gap: 5px;
+}
 
 a {
     text-decoration: none;
